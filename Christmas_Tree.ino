@@ -1,10 +1,13 @@
+//Code to create and LED based Christmas decoration
+//Testing a new branch
+
 const int redleft= 3;
 const int greenright = 4;
 const int yellow = 5;
 const int redright = 6;
 const int greenleft = 7;
 const int gap=1000;
-const int times = 6;
+const int times = 7;
 
 #include <JeeLib.h> // Low power functions library 
 ISR(WDT_vect) { Sleepy::watchdogEvent(); } // Setup the watchdog
